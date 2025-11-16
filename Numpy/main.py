@@ -1,1 +1,11 @@
-print("Hello World")
+import numpy as np
+arr = np.array([1, 2, 3, 4])
+arr2d =np.array([[1,2,3],[1,3,4]])
+print(type(arr))
+print(type(arr2d))
+print("Array shape:")
+print(arr2d.shape)
+print("Array Dtype:")
+print(arr2d.dtype)
+print("Array total element")
+print(arr2d.size)
